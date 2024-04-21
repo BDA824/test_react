@@ -15,12 +15,27 @@
 }
 
 .tw-follow-card {
-  display: flex;
+  display: grid;
   align-items: center;
+  grid-template-columns: 75px 100px auto;
+  column-gap: 5px;
+  background-color: #3d5a73;
+  padding: 15px;
+  border-radius: 12px;
 }
 
 .tw-follow-card-img {
   width: 75px;
   height: 75px;
   border-radius: 50%;
+}
+
+.tw-follow-card-userName {
+  display: grid;
+  text-align: left;
+}
+
+.tw-follow-card-button {
+  display: grid;
+  padding-left: 50px;
 }
